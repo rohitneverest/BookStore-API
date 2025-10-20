@@ -23,7 +23,7 @@ Swagger UI for API documentation|
 Tested via Postman|
 
 ---
-
+Tech Stack
 
 | Category            | Tools/Frameworks            |
 | ------------------- | --------------------------- |
@@ -35,3 +35,31 @@ Tested via Postman|
 | **API Docs**        | Swagger (Springdoc OpenAPI) |                      |
 | **Version Control** | Git, GitHub                 |
 
+---
+
+
+Author
+ ├── authorId : Long
+ ├── name : String
+ └── books : List<Book>
+
+Book
+ ├── bookId : Long
+ ├── title : String
+ ├── genre : String
+ ├── publicationYear : int
+ ├── price : double
+ └── author : Author
+
+
+
+---
+API endpoints
+
+| Method     | Endpoint      | Description           |
+| ---------- | ------------- | --------------------- |
+| **POST**   | `/books`      | ➕ Add a new book      |
+| **GET**    | `/books`      | 📋 Get all books      |
+| **GET**    | `/books/{id}` | 🔍 Get a book by ID   |
+| **PUT**    | `/books/{id}` | ✏️ Update a book      |
+| **DELETE** | `/books/{id}` | ❌ Delete a book by ID |
