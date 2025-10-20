@@ -1,7 +1,7 @@
 📚 **Bookstore API**
 
 A Spring Boot RESTful API that manages books and authors in a bookstore system.
-It supports CRUD operations, filtering, pagination, and sorting — with an in-memory H2 Database, Swagger UI documentation, and Postman testing support.
+**It supports CRUD operations, filtering, pagination, and sorting — with an in-memory H2 Database, Swagger UI documentation, and Postman testing support.**
 
 ---
 🚀 **Features**
